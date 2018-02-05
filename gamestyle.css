@@ -1,0 +1,65 @@
+
+
+/*styles for all screen sizes*/
+body {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+}
+
+h1 {
+	color: white;
+	text-shadow: 2px 2px #008080;
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+	padding-left: 20px;
+	background-color: rgb(240,240,240);
+}
+
+#board {
+  border: 1px solid black;
+	border-collapse: collapse;
+	background-color: rgb(224,255,255);
+	align-self: center;
+}
+
+button {
+	width: 90px;
+	height: 40px;
+	align-self: center;
+	padding: 5px;
+}
+
+td {
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+}
+
+td:hover {
+	background-color: rgb(210,240,240)
+}
+
+tr > th{
+	border: 1px solid black;
+	height: 50px;
+	width: 30px;
+	text-align: column;
+
+}
+
+
+.marked {
+	background: #A1D6CC;
+}
+.unmarked {
+	background: rgb(224,255,255);
+}
+.yes {
+	background: #A9DADF
+}
+.a {
+
+}

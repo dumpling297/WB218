@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Puzzle</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--stylesheet-->
+  <link href="gamestyle.css"  rel="stylesheet"/>
+  <script type="text/javascript" src="gameActive.js"></script>
+</head>
+
+<body onload="init()">
+  <h1>The Puzzle</h1>
+  <table id="board">
+    <CAPTION> Here we go! </caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th id="col0"></th>
+        <th id="col1"></th>
+        <th id="col2"></th>
+        <th id="col3"></th>
+        <th id="col4"></th>
+        <th id="col5"></th>
+        <th id="col6"></th>
+        <th id="col7"></th>
+        <th id="col8"></th>
+        <th id="col9"></th>
+        <th id="col10"></th>
+        <th id="col11"></th>
+      </tr>
+    </thead>
+  </table>
+  <button id="reset" onclick="tableReset()">RESET</button>
+  <button id="start" onclick="showAnswer()">ANSWER</button>
+  <button id="new" onclick="newPuzzle()">NEW PUZZLE</button>
+</body>
+
+</html>
