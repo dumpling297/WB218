@@ -1,0 +1,26 @@
+/*create different styles depending on the device used by the client
+--mobile or PC... */
+
+/*detect widget of the browser -- perform @media query*/
+@media only screen and (max-width: 480px) {
+  /*styles for only mobile devices */
+
+  nav > ul {
+  	flex-direction: column;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  /* styles for larger devices - greater than 480px in width */
+
+  nav > ul {
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  a{
+    padding-left: 35px;
+  }
+
+}
